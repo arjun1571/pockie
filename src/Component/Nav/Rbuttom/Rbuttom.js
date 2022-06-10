@@ -1,10 +1,9 @@
 import React from "react";
-import "./Rcard.css";
-
-const Rcard = (props) => {
+import "./Rbuttom.css";
+const Rbuttom = (props) => {
   return (
     <div>
-      <div className="Rcard-style">
+      <div className="Rbuttom-style">
         <h3>{props.product.title}</h3>
         <p>{props.product.price}</p>
       </div>
@@ -12,4 +11,4 @@ const Rcard = (props) => {
   );
 };
 
-export default Rcard;
+export default Rbuttom;

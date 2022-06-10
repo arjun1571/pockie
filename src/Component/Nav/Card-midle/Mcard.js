@@ -6,7 +6,7 @@ const Mcard = (props) => {
       <h3>{props.product.title}</h3>
       <p>{props.product.description}</p>
       <h4>${props.product.price}</h4>
-      <button className="btn-style">Order Now</button>
+      <p>{props.product.description}</p>
     </div>
   );
 };
