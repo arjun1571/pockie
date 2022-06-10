@@ -1,0 +1,35 @@
+.Navbar {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.left-side {
+  flex: 30%;
+}
+.middle {
+  flex: 40%;
+}
+.right-side {
+  flex: 30%;
+  color: white;
+}
+.left-side h1 {
+  color: white;
+}
+.middle input {
+  color: #ffffff;
+  margin: 25px 0px 25px 25px;
+  padding: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 24px;
+  border-radius: 5px;
+  width: 400px;
+}
+.middle button {
+  padding: 10px;
+  margin: 3px;
+  background: #68d237;
+  border-radius: 8px;
+}

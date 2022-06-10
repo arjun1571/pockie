@@ -1,0 +1,13 @@
+.home-container {
+  display: flex;
+}
+.left-product {
+  flex: 25%;
+}
+.midel-product {
+  flex: 50%;
+}
+.right-container {
+  flex: 25%;
+  height: 600px;
+}
